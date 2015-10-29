@@ -1,1 +1,85 @@
+body{
+  background-color: #FFB547;
+}
+h1{
+  text-align:center;
+  background-color: #FF1919;
+  text-shadow: 1px 1px #88f8f8;
+  }
+h2{
+  text-align: center;
+  background-color: #0099CC;
+  }
+ .menu{
+  text-align: center;
+  font-size: 15px;
+  }
+  #Information{
+    background-color: rgb(51, 204, 51);
+  }
+  #logo{
+    width: 105px;
+    height: 105;
+    margin-right:20px;
+    float:right;
+
+  }
+
+  #bayern {
+     background-color: lightgrey;
+    width: 1055px;
+    height: 225px;
+    padding: 25px;
+    border: 5px solid navy;
+    margin: 5px;
+  }
+  #real {
+    background-color: lightgrey;
+    width: 1055px;
+    height: 225px;
+    padding: 25px;
+    border: 5px solid navy;
+    margin: 5px;
+  }
+  #manchester{
+    background-color: lightgrey;
+    width: 1055px;
+    height: 225px;
+    padding: 25px;
+    border: 5px solid navy;
+    margin: 5px;
+  }
+
+  #Bayern {
+    width:349px;
+    height:250px;
+    border:2px solid;
+    padding:10px;
+    }
+  #Real{
+
+    width:349px;
+    height:250px;
+    border:2px solid;
+    padding:10px;
+
+    }
+  #Manchester{
+
+    width:349px;
+    height:250px;
+    border:2px solid;
+    padding:10px;
+
+  }
+  .contact{
+    width: 420px;
+    height: 20px;
+    color: white;
+    background-color: #0066FF;
+    margin-right:725px;
+  }
+  .Footbal-validator{
+    background-color: HEX: #00CC00;
+  }
 
