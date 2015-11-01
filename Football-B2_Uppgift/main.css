@@ -19,7 +19,7 @@ h2{
   }
   #logo{
     width: 105px;
-    height: 105;
+    height: 105px;
     margin-right:20px;
     float:right;
 
@@ -80,5 +80,5 @@ h2{
     margin-right:725px;
   }
   .Footbal-validator{
-    background-color: HEX: #00CC00;
+    background-color: #0000FF;
   }
