@@ -20,13 +20,13 @@ h3 {
 
 #player1 {
     float: right;
-    width : 300px;
-    height : 280px;
+    width : 320px;
+    height : 300px;
 }
 #player2 {
   float: left;
   width : 320px;
-  height: 269px;
+  height: 300px;
   }
 main{
       display: flex;
