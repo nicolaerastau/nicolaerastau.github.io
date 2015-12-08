@@ -44,8 +44,8 @@ main{
 
 .content {
     text-align: center;
-    width: 162px;
-    height: 269px;
+    width: 200px;
+    height: 280px;
     background-color: rgba(0, 0, 0, 0.5);
     transform: translateY(86%);
     transition: 0.4s;
