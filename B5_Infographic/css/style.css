@@ -36,7 +36,7 @@ main{
 .football-box{
   background-size: cover;
   width : 200px;
-  height: 280px;
+  height: 275px;
   overflow: hidden;
   cursor: pointer;
   }
@@ -45,7 +45,7 @@ main{
 .content {
     text-align: center;
     width: 200px;
-    height: 280px;
+    height: 275px;
     background-color: rgba(0, 0, 0, 0.5);
     transform: translateY(86%);
     transition: 0.4s;
@@ -72,7 +72,7 @@ background-image:url(http://i.imgur.com/9XRJJgd.jpg);
     background-image:url(http://i.imgur.com/17Tlbfa.jpg);
 }
 .logo5{
-   margin-left:10px;
+   margin-left:20px;
     background-image:url(http://i.imgur.com/MrrZgWt.png);
 }
 .logo6{
@@ -86,7 +86,7 @@ background-image:url(http://i.imgur.com/9XRJJgd.jpg);
 }
 
 .logo9{
-   margin-left:10px;
+   margin-left:20px;
     background-image:url(http://i.imgur.com/2KZu4wo.jpg);
 }
 .logo10{
@@ -100,7 +100,7 @@ background-image:url(http://i.imgur.com/9XRJJgd.jpg);
     background-image:url(http://i.imgur.com/jCN571b.jpg);
 }
 .logo13{
-    margin-left:10px;
+    margin-left:20px;
     background-image:url(http://i.imgur.com/wkRaHi0.jpg);
 }
 .logo14{
@@ -113,7 +113,7 @@ background-image:url(http://i.imgur.com/9XRJJgd.jpg);
     background-image:url(http://i.imgur.com/GO1BDpu.jpg);
 }
 .logo17{
-   margin-left:10px;
+   margin-left:20px;
     background-image:url(http://i.imgur.com/X4h1ijj.jpg);
 }
 .logo18{
@@ -126,7 +126,7 @@ background-image:url(http://i.imgur.com/9XRJJgd.jpg);
     background-image:url(http://i.imgur.com/uAADDKv.jpg);
 }
 .logo21{
-  margin-left:10px;
+  margin-left:20px;
     background-image:url(http://i.imgur.com/Vo3YlUq.jpg);
 }
 .fifa1{
