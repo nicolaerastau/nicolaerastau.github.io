@@ -85,5 +85,5 @@ while (remainingLetters > 0) {
 
   document.getElementById('countryName').innerHTML = answerArray;
 }
-document.getElementById('congratesMsg').innerHTML = " You guess the country`s name! If you want to play again Refresh Page!";
+document.getElementById('congratesMsg').innerHTML = " You guessed the country`s name! If you want to play again Refresh Page!";
 
