@@ -52,11 +52,12 @@ var words = [
   "United Kingdom",
   "Vatican"
 ];
+
 // Pick a random word
 var word = words[Math.floor(Math.random() * words.length)];
 // Set up the answer array
 var answerArray = [];
-
+var countryName;
 for (var i = 0; i < word.length; i++) {
   answerArray[i] = "_";
 }
@@ -64,7 +65,7 @@ document.getElementById('countryName').innerHTML = answerArray + "<span>" + answ
 
 var remainingLetters = word.length;
 while (remainingLetters > 0) {
-  var guess = prompt("Guess a letter, or click Cancel to stop playing.");
+  var guess = prompt("Guess a letter or click Cancel to stop playing.");
 
   if (guess === null ) {
 
@@ -86,4 +87,3 @@ while (remainingLetters > 0) {
   document.getElementById('countryName').innerHTML = answerArray;
 }
 document.getElementById('congratesMsg').innerHTML = " You guessed the country`s name! If you want to play again Refresh Page!";
-
