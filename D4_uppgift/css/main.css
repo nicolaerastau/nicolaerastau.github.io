@@ -1,7 +1,5 @@
 *{
   margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing:border-box;
 }
 
@@ -18,9 +16,6 @@ body{
   body{
     background-image: url(http://i.imgur.com/ankPtEg.jpg);
   }
-  wrapper{
-    width:33,3%;
-  }
 }
 .wrapper{
   font-size: 17px;
@@ -31,6 +26,14 @@ body{
   margin-right: auto;
   clear :both;
 
+}
+img{
+  height: 120px;
+  width: 140px;
+  position: absolute;
+  border-radius: 15px;
+  left: 50px;
+  top:10px;
 }
 .pris {
    background-color: #6666ff;
@@ -222,7 +225,7 @@ font-size: 40px;
 }
   .button5:hover {background-color:#ff3300}
   .button6 {
-    margin-left: 150px;
+    margin-left: 190px;
     margin-top:3px;
     padding: 4px 30px;
     font-size: 10px;
@@ -261,4 +264,3 @@ font-size: 40px;
      position: absolute;
      margin-bottom: 20px;
   }
- 
