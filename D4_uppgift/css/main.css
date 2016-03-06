@@ -1,37 +1,28 @@
-html{
-  font-size: 100%;
+*{
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
 }
+
 body{
+  font-size: 95%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-image: url(http://i.imgur.com/ankPtEg.jpg);
   opacity: 0.8;
-  width: 100%
-}
-img {
-  max-width: 100%;
 
 }
 @media screen and (min-width: 768px){
   body{
     background-image: url(http://i.imgur.com/ankPtEg.jpg);
   }
- container{
-   width: 33,3%;
- }
 }
-@media screen and (min-width: 1200px){
-  body{
-    background-image: url(http://i.imgur.com/ankPtEg.jpg);
-  }
- container{
-   width: 23%;
- }
-}
-
-#container{
-  width: 100%;
+.wrapper{
+  font-size: 17px;
+  padding:2px;
+  max-width: 1900px;
   height :auto;
   margin-left: auto;
   margin-right: auto;
@@ -41,14 +32,14 @@ img {
 .pris {
    background-color: #6666ff;
    float:left;
-    margin-top: 60px;
+    margin-top: 160px;
     margin-left: 20px;
     width: 330px;
-    height: 420px;
+    height: 400px;
     border: 3px solid #73AD21;
 }
 .button1 {
-  margin-left: 70px;
+  margin-left: 60px;
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
@@ -88,11 +79,11 @@ font-size: 40px;
 .box2{
   background-color:#6666ff;
   float:right;
-  margin-right: 55px;
-  margin-top: 60px;
+  margin-right: 75px;
+  margin-top: 130px;
   margin-left: 20px;
   width: 200px;
-  height: 80px;
+  height: 100px;
   border: 3px solid #73AD21;
 }
 
@@ -147,18 +138,18 @@ font-size: 40px;
 .kategorier{
   background-color: #cccccc;
   float:left;
-  margin-top:-360px;
+  margin-top:-280px;
   margin-left: 140px;
-  width: 475px;
-  height: 500px;
+  width: 485px;
+  height: 550px;
   border: 3px solid  #0000ff;
 }
 .tips{
   background-color: #cccccc;
   margin-bottom: 20px;
-  margin-top:150px;
-  margin-left: 470px;
-  width: 475px;
+  margin-top:130px;
+  margin-left: 465px;
+  width: 485px;
   height: 100px;
   border: 3px solid  #0000ff;
   }
@@ -198,10 +189,10 @@ font-size: 40px;
 .box4{
    background-color:#6666ff;
    float:right;
-   margin-top:-320px;
+   margin-top:-280px;
    margin-right: 20px;
    width: 300px;
-   height: 720px;
+   height: 780px;
    border: 3px solid #73AD21;
 }
 
@@ -228,7 +219,7 @@ font-size: 40px;
 }
   .button5:hover {background-color:#ff3300}
   .button6 {
-    margin-left: 140px;
+    margin-left: 150px;
     margin-top:3px;
     padding: 4px 30px;
     font-size: 10px;
@@ -263,10 +254,7 @@ font-size: 40px;
   }
   #footer {
     margin-left: 460px;
-    margin-top: 800px;
+    margin-top: 830px;
      position: absolute;
      margin-bottom: 20px;
   }
-
-
-
