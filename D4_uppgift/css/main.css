@@ -9,8 +9,26 @@ body{
   opacity: 0.8;
   width: 100%;
 }
+
+@media screen and (min-width: 768px){
+  body{
+    background-image: url(http://i.imgur.com/ankPtEg.jpg);
+  }
+  #container{
+   width: 33,3%;
+ }
+}
+
+@media screen and (min-width: 768px){
+  body{
+    background-image: url(http://i.imgur.com/ankPtEg.jpg);
+  }
+  #container{
+   width: 23,3%;
+ }
+}
 #container{
-  width: 1700px;
+  width: 100%;
   height :auto;
   margin-left: auto;
   margin-right: auto;
