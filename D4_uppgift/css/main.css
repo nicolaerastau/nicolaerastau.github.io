@@ -18,7 +18,9 @@ body{
   body{
     background-image: url(http://i.imgur.com/ankPtEg.jpg);
   }
- 
+  wrapper{
+    width:33,3%;
+  }
 }
 .wrapper{
   font-size: 17px;
