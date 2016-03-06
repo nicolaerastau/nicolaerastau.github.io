@@ -7,20 +7,26 @@ body{
   background-attachment: fixed;
   background-image: url(http://i.imgur.com/ankPtEg.jpg);
   opacity: 0.8;
-  min-width: 100%;
+  width: 100%;
 }
-
+#container{
+  width: 1300px;
+  height :auto;
+  margin-left: auto;
+  margin-right: auto;
+  clear :both;
+}
 .pris {
    background-color: #6666ff;
-    float:left;
+   float:left;
     margin-top: 60px;
     margin-left: 20px;
-    width: 18%;
+    width: 25%;
     height: 420px;
     border: 3px solid #73AD21;
 }
 .button1 {
-  margin-left: 20%;
+  margin-left: 70px;
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
@@ -51,7 +57,7 @@ background-color: #ff8533;
 width : 18%;
 height : 50px;
 position: absolute;
-left: 39.5%;
+left: 600px;
 top: 10px;
 text-align: center;
 font-size: 40px;
@@ -60,16 +66,16 @@ font-size: 40px;
 .box2{
   background-color:#6666ff;
   float:right;
-  margin-right: 3.6%;
+  margin-right: 55px;
   margin-top: 60px;
-  margin-left: 2%;
+  margin-left: 20px;
   width: 14%;
   height: 80px;
   border: 3px solid #73AD21;
 }
 
 .button2 {
-  margin-left: 36%;
+  margin-left: 50px;
   margin-top:5px;
   padding: 4px 30px;
   font-size: 12px;
@@ -94,7 +100,7 @@ font-size: 40px;
   width : 30%;
   height : 50px;
   position: absolute;
-  left: 38.2%;
+  left: 525px;
   top: 80px;
   text-align: center;
   font-size: 12%;
@@ -120,7 +126,7 @@ font-size: 40px;
   background-color: #cccccc;
   float:left;
   margin-top:-360px;
-  margin-left: 13.4%;
+  margin-left: 230px;
   width: 35%;
   height: 500px;
   border: 3px solid  #0000ff;
@@ -129,7 +135,7 @@ font-size: 40px;
   background-color: #cccccc;
   margin-bottom: 20px;
   margin-top:150px;
-  margin-left: 30.7%;
+  margin-left: 470px;
   width: 35%;
   height: 100px;
   border: 3px solid  #0000ff;
@@ -139,13 +145,13 @@ font-size: 40px;
    float:left;
    clear: both;
    margin-top: 20px;
-   margin-left: 3%;
+   margin-left: 45px;
    width: 14%;
    height: 150px;
    border: 3px solid #73AD21;
 }
 .button4 {
-  margin-left: 27%;
+  margin-left: 35px;
   margin-top:5px;
   padding: 4px 30px;
   font-size: 12px;
@@ -200,7 +206,7 @@ font-size: 40px;
 }
   .button5:hover {background-color:#ff3300}
   .button6 {
-    margin-left: 38%;
+    margin-left: 150px;
     margin-top:3px;
     padding: 4px 30px;
     font-size: 10px;
@@ -234,262 +240,12 @@ font-size: 40px;
      float: left;
   }
   #footer {
-     margin-left: 34.5%;
-     margin-top: 800px;
-     position: absolute;
-     margin-bottom: 20px;
-  }
-    @media screen and (min-width: 480px)  and (max-width: 2000px) {
-
-
-  /*  @media screen and (min-width: 660px)  {
-       body{
-           background-image: url(http://i.imgur.com/ankPtEg.jpg);
-       }
-    }*/
-
-body{
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url(http://i.imgur.com/ankPtEg.jpg);
-  opacity: 0.8;
-
-}
-}
-
-
-.pris {
-   background-color: #6666ff;
-   float:left;
-    margin-top: 60px;
-    margin-left: 20px;
-    max-width: 250px;
-    height: 420px;
-    border: 3px solid #73AD21;
-}
-.button1 {
-margin-left: 20px;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #009900;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 5px #ff0000;
-}
-.button1:hover {background-color: #0000ff}
-.button1:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-h3{
- margin-top:0;
- margin-left : 10px;
- font-size : 30px;
-}
-.box3{
-   background-color:#6666ff;
-   float:left;
-   clear: both;
-   margin-top: 20px;
-   margin-left: 50px;
-   width: 185px;
-   height: 150px;
-   border: 3px solid #73AD21;
-}
-.button4 {
-  margin-left: 35px;
-  margin-top:5px;
-  padding: 4px 30px;
-  font-size: 12px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #009900;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 3px #ff0000;
-}
-.button4:hover {background-color:  #0000ff}
-.button4:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.box1{
-background-color: #ff8533;
-width : 250px;
-height : 50px;
-position: absolute;
-left: 44%;
-top: 10px;
-text-align: center;
-font-size: 40px;
-color:   #0000cc;
-}
-.menu{
-  width : 400px;
-  height : 50px;
-  position: absolute;
-  left: 40.3%;
-  top: 80px;
-  text-align: center;
-  font-size: 40px;
-  color:   #0000cc;
-}
-.button3{
-  border-radius: 3px;
-  background-color:  #669900;
-   border: 1px solid red;
-   color: white;
-   padding: 10px 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 14px;
-   cursor: pointer;
-   float: left;
-}
-.button3:hover {
-    background-color: #3e8e41;
-}
-.tips{
-  background-color: #cccccc;
-  /*float:left;*/
-  margin-bottom: 20px;
-  margin-top:150px;
-  margin-left: 37.8%;
-  width: 480px;
-  height: 100px;
-  border: 3px solid  #0000ff;
-  }
-  .button6 {
-      margin-left: 150px;
-      margin-top:3px;
-      padding: 4px 30px;
-      font-size: 10px;
-      cursor: pointer;
-      text-align: center;
-      text-decoration: none;
-      outline: none;
-      color: #fff;
-      background-color:  #0000ff;
-      border: none;
-      border-radius: 15px;
-      box-shadow: 0 3px #ff0000;
-    }
-    .button6:hover {background-color:#3e8e41}
-    .button6:active {
-      background-color: #3e8e41;
-      box-shadow: 0 5px #666;
-      transform: translateY(2px);
-    }
-
-.kategorier{
-  background-color: #cccccc;
-  float:left;
-  margin-top:-360px;
-  margin-left: 25%;
-  width: 480px;
-  height: 500px;
-  border: 3px solid  #0000ff;
-}
-.list {
-    -webkit-columns: 2;
-    -moz-columns:  2;
-    columns:  2;
-  }
-  .list li{
-  background-color: #cccccc;
-  }
-
-.box2{
-  background-color:#6666ff;
-  float:right;
-  margin-right: 55px;
-  margin-top: 60px;
-  margin-left: 20px;
-  width: 185px;
-  height: 80px;
-  border: 3px solid #73AD21;
-}
-.button2 {
-  margin-left: 50px;
-  margin-top:5px;
-  padding: 4px 30px;
-  font-size: 12px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #009900;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 3px #ff0000;
-}
-.button2:hover {background-color:  #0000ff}
-
-.button2:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.box4{
-   background-color:#6666ff;
-   float:right;
-   margin-top:-320px;
-   margin-right: 20px;
-   width: 260px;
-   height: 720px;
-   border: 3px solid #73AD21;
-}
-.button5 {
-    margin-left: 125px;
-    margin-top:3px;
-    padding: 4px 25px;
-    font-size: 8px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color:  #0000ff;
-    border: none;
-    border-radius: 15px;
-}
-  .button5:hover {background-color:#ff3300}
-
-
-.button7 {
-    border-radius: 3px;
-    background-color:  #669900;
-     border: 1px solid red;
-     color: white;
-     padding: 10px 20px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 14px;
-     cursor: pointer;
-     float: left;
-  }
-  #footer {
-    margin-left: 37%;
+    margin-left: 460px;
     margin-top: 800px;
      position: absolute;
      margin-bottom: 20px;
   }
-  @media screen and (max-width: 1300px){
+  @media screen and (max-width: 1700px){
    #container{
      width: 100%;
    }
