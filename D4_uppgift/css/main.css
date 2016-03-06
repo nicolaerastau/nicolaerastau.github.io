@@ -9,21 +9,24 @@ body{
   opacity: 0.8;
   width: 100%;
 }
-
-@media screen and (min-width: 768px){
-  body{
-    background-image: url(http://i.imgur.com/ankPtEg.jpg);
-  }
-  #container{
-   width: 33,3%;
- }
+img{
+  max-width:100%;
 }
 
 @media screen and (min-width: 768px){
   body{
     background-image: url(http://i.imgur.com/ankPtEg.jpg);
   }
-  #container{
+  container{
+   width: 33,3%;
+ }
+}
+
+@media screen and (min-width: 1200px){
+  body{
+    background-image: url(http://i.imgur.com/ankPtEg.jpg);
+  }
+  container{
    width: 23,3%;
  }
 }
