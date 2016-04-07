@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Weather</title>
+<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+
+</head>
+
+<body>
+
+  <div data-role="page">
+    <div data-role="panel" id="left-panel" data-theme="c">
+      <ul data-theme="d" data-role="listview">
+       <li data-icon="delete"><a href="#"data-rel="close">Close</a></li>
+       <li data-role="list-divider">Select a City</li>
+          <li><a href="#">Curent Location</a></li>
+          <li><a href="#" class="city" data-rel="close">Stockholm</a></li>
+          <li><a href="#" class="city" data-rel="close">Malmö</a></li>
+          <li><a href="#" class="city" data-rel="close">Göteborg</a></li>
+          <li><a href="#" class="city" data-rel="close">Uppsala</a></li>
+          <li><a href="#" class="city" data-rel="close">Kiruna</a></li>
+          <li><a href="#" class="city" data-rel="close">Jönköping</a></li>
+      </ul>
+    </div><!-- /panel -->
+  	<div data-role="header" data-position="fixed" data-theme="c">
+           <h1>Väder</h1>
+           <a href ="#left-panel" data-icon ="bars" data-role="button" data-iconpos="notext" data-iconshadow="false">Menu</a>
+    </div>
+  	<div data-role="content" class="content">
+      <h1 id="current_temp"></h1>
+      <p id="current_summary"></p>
+      <p id="location">Current Location</p>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="js/api.js"></script>
+</body>
+</html>
