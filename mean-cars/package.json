@@ -1,0 +1,14 @@
+{
+  "name": "carsListApp",
+  "version": "1.0.0",
+  "description": "cars app",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolae",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "4.6.1"
+  }
+}
