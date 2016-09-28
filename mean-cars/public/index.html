@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEAN-app</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body ng-app="carsListApp">
+   <h1>Cars list</h1>
+ <div ng-controller="carCtrl">
+	 <a href="" ng-click="addCar()">Add new car</a>
+	 <table>
+		    <tr>
+					  <th>Check</th><th>Name</th><th>Model</th><th>Color</th><th>Year</th><th>Horsepower</th><th>Delete</th><th>Edit</th><th>Save</th>
+			</tr>
+			<tr ng-repeat="car in cars | orderBy: 'check' ">
+           <td> <input type="checkbox" ng-model="car.check" ng-change="saveCar(car,$index)"/></td>
+	         <td ng-hide="car.editing">{{car.name}}</td><td ng-show="car.editing"><input type="text" value={{car.name}} ng-model="car.name" /></td>
+           <td ng-hide="car.editing">{{car.model}}</td><td ng-show="car.editing"><input type="text" value={{car.model}} ng-model="car.model" /></td>
+					 <td ng-hide="car.editing">{{car.color}}</td><td ng-show="car.editing"><input type="text" value={{car.color}} ng-model="car.color" /></td>
+					 <td ng-hide="car.editing">{{car.year}}</td><td ng-show="car.editing"><input type="text" value={{car.year}} ng-model="car.year" /></td>
+					 <td ng-hide="car.editing">{{car.horsepower}}</td><td ng-show="car.editing"><input type="text" value={{car.horsepower}} ng-model="car.horsepower" /></td>
+
+           <td><a href="" ng-click="deleteCar(car,$index)">delete</a>
+	    	   <td><a href="" ng-click="car.editing = true">edit</a>
+		       <td><a href="" ng-click="saveCar(car,$index)">save</a>
+       </tr>
+   </table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+	<script src="scripts/app.js" type="text/javascript"></script>
+	<script src="scripts/services.js" type="text/javascript"></script>
+	<script src="scripts/controllers.js" type="text/javascript"></script>
+	<script src="scripts/directives.js" type="text/javascript"></script>
+</body>
+</html>
