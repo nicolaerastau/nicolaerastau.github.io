@@ -2,7 +2,6 @@
       
       angular
       .module("Icon")
-      /*.filter('unsafe', function($sce) { return $sce.trustAsHtml; })*/
       .controller("listCtrl", ['$http', ListController]);
 
 
@@ -27,50 +26,10 @@
                 vm.data[response.config.index].code_negative = response.data;
               });
            }
-          /*  for (var i = 0; i < vm.size.length; i++) {
-              $http.get(vm.size[i].size, {index: i}).then(function(response) {
-                vm.size[response.config.index].size = response.size;
-              });
-           }  */
-        
+         
           vm.favcolor = '#000';  
         }
-    /*  vm.themes = [
-    
-      { 
-        name: 'Base',
-        class: 'base'
-      },
-      {
-        name: 'Monochrome',
-        class: 'monochrome'
-      },
-      {
-        name: 'Slate',
-        class: 'slate'
-      },
-       {
-        name: 'Sand',
-        class: 'sand'
-      },
-      {
-        name: 'X-ray',
-        class: 'x-ray'
-      },
-      
-   ];
-
-    vm.theme = vm.themes[0];*/
-   
-       /* function download (index){
-                vm.activeIcon= index   
-          }   */ 
-      
-
-    
-       
-      
-      
+  
       function changeActiveIcon(index){
         var vm = this;
         vm.activeIcon = index;
