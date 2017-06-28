@@ -139,18 +139,7 @@ PAGE: ABOUT
 ***********************************/
 
 .profile-photo {
- background-image:
-	 linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-	url(http://i.imgur.com/Igk0U4o.jpg);
-	 position:relative;
-	 background-size: cover;
-	 background-position: center center;
-     background-repeat:no-repeat;
-     background-attachment: fixed;
- 
+max-width:200px;
 }
 
 
