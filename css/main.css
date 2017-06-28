@@ -139,7 +139,10 @@ PAGE: ABOUT
 ***********************************/
 
 .profile-photo {
-max-width:200px;
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+ 
 }
 
 
