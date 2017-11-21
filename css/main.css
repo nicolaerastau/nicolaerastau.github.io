@@ -200,6 +200,7 @@ header {
 /* nav background on mobile */
 nav {
   background: #599a68;
+  margin:0;
 }
 
 /* logo text */
