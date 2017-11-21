@@ -67,7 +67,7 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
+ 
 }
 
 nav ul {
@@ -191,7 +191,7 @@ body {
   color: #999;
 }
 
-/* green header */
+/*  header */
 header {
   background: #2980b9;
   border-color: #599a68;
@@ -199,7 +199,7 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background:  #355F8C;
   margin:0;
 }
 
@@ -220,5 +220,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #ef8d24;
 }
